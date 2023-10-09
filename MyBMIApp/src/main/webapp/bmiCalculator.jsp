@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="com.BMICalculator" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,17 +17,17 @@
     </form>
 
     <%
-        // Process form data and calculate BMI
         if (request.getMethod().equalsIgnoreCase("POST")) {
             double weight = Double.parseDouble(request.getParameter("weight"));
             double height = Double.parseDouble(request.getParameter("height"));
 
-            double bmi = weight / (height * height);
+            BMICalculator calculator = new BMICalculator(weight, height);
+            double bmi = calculator.calculateBMI();
 
             out.println("<br><br>");
             out.println("<strong>Your BMI:</strong> " + bmi);
 
-            // Provide BMI categories for reference
+            
             out.println("<br><strong>BMI Categories:</strong>");
             out.println("<br>Underweight: Less than 18.5");
             out.println("<br>Normal weight: 18.5 - 24.9");
