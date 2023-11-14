@@ -10,7 +10,7 @@
 
     <h2>BMI Calculator</h2>
 
-    <form action="bmiCalculator.jsp" method="post">
+    <form action="./bmiCalculator.jsp" method="post">
         Enter your weight (kg): <input type="text" name="weight" required><br>
         Enter your height (m): <input type="text" name="height" required><br>
         <input type="submit" value="Calculate BMI">
