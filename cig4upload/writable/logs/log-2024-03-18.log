@@ -1,0 +1,45 @@
+CRITICAL - 2024-03-18 04:20:58 --> InvalidArgumentException: You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Upload.php(22): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->uploadFile()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 04:23:15 --> InvalidArgumentException: You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Upload.php(35): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->listFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 04:23:17 --> InvalidArgumentException: You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Upload.php(35): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->listFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 04:23:17 --> InvalidArgumentException: You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Upload.php(35): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->listFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 04:23:18 --> InvalidArgumentException: You have not selected a database type to connect to.
+in SYSTEMPATH\Database\Database.php on line 52.
+ 1 SYSTEMPATH\Database\Config.php(82): CodeIgniter\Database\Database->load([...], 'default')
+ 2 SYSTEMPATH\Model.php(153): CodeIgniter\Database\Config::connect('default')
+ 3 APPPATH\Controllers\Upload.php(35): CodeIgniter\Model->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Upload->listFiles()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
