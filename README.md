@@ -1,1 +1,1 @@
-image/test:21
+image/test:beta21
