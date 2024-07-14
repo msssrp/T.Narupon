@@ -1,1 +1,1 @@
-test:20
+image/test:20
